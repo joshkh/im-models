@@ -1,0 +1,61 @@
+<!-- <div class="welcome">
+  <a href="https://github.com/jgoux/generator-angulpify" title="Yeoman Angulpify Generator">
+    <img src="assets/images/angulpify.png">
+  </a>
+  <h1>{{welcome}}</h1>
+
+</div> -->
+
+<!-- <div style="100%;" ng-repeat="(classname, attributes) in classes">
+  <h3>{{classname}}</h3>
+  <div class="flex-row" ng-repeat="(attribute, value) in attributes">
+    <div class="flex-item">{{attribute}}</div>
+    <div class="flex-item" ng-repeat="mine in mines">
+      {{exists(mine.name, value)}}
+    </div>
+  </div>
+</div> -->
+
+
+<div style="100%;" ng-repeat="(classname, attributes) in classes">
+  <h3>{{classname}}</h3>
+  <table class="full">
+    <tr ng-repeat="(attribute, value) in attributes">
+      <td>{{attribute}}</td>
+      <td ng-repeat="mine in mines">
+        {{exists(mine.name, value)}}
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+    <!-- <div class="flex-row" ng-repeat="(attribute, value) in attributes">
+      <div class="flex-item">{{attribute}}</div>
+      <div class="flex-item" ng-repeat="mine in mines">
+        {{exists(mine.name, value)}}
+      </div>
+  </table>
+</div> -->
+
+
+
+<!-- <div class="flex-row" ng-repeat="(classname, attributes) in classes">
+  <h3>{{classname}}</h3>
+  <div class="flex-item" ng-repeat="(attribute, value) in attributes">{{value}}</div>
+</div>
+ -->
+
+
+
+
+<!-- <div ng-repeat="(classname, attributes) in classes">
+  <h3>{{classname}}</h3>
+  <table class="flex-row">
+    <tr ng-repeat="(attribute, value) in attributes">
+      <td>{{attribute}}</td>
+      <td>{{value}}</td>
+    </tr>
+  </table>
+</div> -->

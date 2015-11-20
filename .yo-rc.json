@@ -1,0 +1,11 @@
+{
+  "generator-angulpify": {
+    "projectName": "immodels",
+    "coffee": true,
+    "jade": false,
+    "sass": false,
+    "bootstrap": true,
+    "uiBootstrap": true,
+    "uiRouter": true
+  }
+}
